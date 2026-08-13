@@ -1,0 +1,83 @@
+                   Mixed Linear Model Regression Results
+===========================================================================
+Model:                   MixedLM        Dependent Variable:        log_time
+No. Observations:        81             Method:                    REML
+No. Groups:              27             Scale:                     0.1677
+Min. group size:         3              Log-Likelihood:            -65.6881
+Max. group size:         3              Converged:                 Yes
+Mean group size:         3.0
+---------------------------------------------------------------------------
+                                  Coef. Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------
+Intercept                         4.551    0.123 37.110 0.000  4.311  4.791
+stimulus[T.Iterative screenshots] 0.331    0.096  3.462 0.001  0.144  0.519
+task[T.T2]                        1.015    0.112  9.090 0.000  0.796  1.234
+task[T.T3]                        1.384    0.112 12.411 0.000  1.165  1.603
+Group Var                         0.181    0.197
+===========================================================================
+
+
+
+
+
+                   Mixed Linear Model Regression Results
+============================================================================
+Model:                     MixedLM        Dependent Variable:        f1
+No. Observations:          81             Method:                    REML
+No. Groups:                27             Scale:                     0.0514
+Min. group size:           3              Log-Likelihood:            -8.5571
+Max. group size:           3              Converged:                 Yes
+Mean group size:           3.0
+----------------------------------------------------------------------------
+                                  Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------------
+Intercept                          1.053    0.055 19.241 0.000  0.945  1.160
+stimulus[T.Iterative screenshots] -0.135    0.052 -2.599 0.009 -0.237 -0.033
+task[T.T2]                        -0.318    0.062 -5.136 0.000 -0.439 -0.196
+task[T.T3]                        -0.219    0.062 -3.546 0.000 -0.340 -0.098
+Group Var                          0.012    0.045
+============================================================================
+
+
+
+
+
+                   Mixed Linear Model Regression Results
+============================================================================
+Model:                   MixedLM        Dependent Variable:        precision
+No. Observations:        81             Method:                    REML
+No. Groups:              27             Scale:                     0.0495
+Min. group size:         3              Log-Likelihood:            -6.2011
+Max. group size:         3              Converged:                 Yes
+Mean group size:         3.0
+----------------------------------------------------------------------------
+                                  Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------------
+Intercept                          1.047    0.053 19.752 0.000  0.943  1.151
+stimulus[T.Iterative screenshots] -0.097    0.051 -1.910 0.056 -0.197  0.003
+task[T.T2]                        -0.197    0.061 -3.239 0.001 -0.315 -0.078
+task[T.T3]                        -0.136    0.061 -2.239 0.025 -0.254 -0.017
+Group Var                          0.010    0.041
+============================================================================
+
+
+
+
+
+                   Mixed Linear Model Regression Results
+============================================================================
+Model:                    MixedLM        Dependent Variable:        recall
+No. Observations:         81             Method:                    REML
+No. Groups:               27             Scale:                     0.0656
+Min. group size:          3              Log-Likelihood:            -17.3056
+Max. group size:          3              Converged:                 Yes
+Mean group size:          3.0
+----------------------------------------------------------------------------
+                                  Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------------
+Intercept                          1.051    0.061 17.158 0.000  0.931  1.171
+stimulus[T.Iterative screenshots] -0.143    0.058 -2.452 0.014 -0.258 -0.029
+task[T.T2]                        -0.360    0.070 -5.150 0.000 -0.497 -0.223
+task[T.T3]                        -0.255    0.070 -3.661 0.000 -0.392 -0.119
+Group Var                          0.014    0.048
+============================================================================
